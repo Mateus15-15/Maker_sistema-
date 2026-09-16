@@ -1,5 +1,7 @@
 # maker ifpi
-maker uma breve descrição do problema que o sistema vai resolver
+maker
+
+sem acesso ao laboratório maker, o diretor não consegue ver quais projetos tá sendo feitos
 
 Alunos:MATEUS QUIXABA CAMPOS DE MACEDO, Melquizedeque de Sousa Reis, PEDRO GABRYEL RODRIGUES CASTRO, THIAGO LIMA CAVALCANTE
 
