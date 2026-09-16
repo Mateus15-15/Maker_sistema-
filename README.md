@@ -1,7 +1,7 @@
 # maker ifpi
 maker
 
-sem acesso ao laboratório maker, o diretor não consegue ver quais projetos tá sendo feitos
+sem acesso ao laboratório maker, o diretor não consegue ver quais projetos tá sendo feitos(não ta finalizado)
 
 Alunos:MATEUS QUIXABA CAMPOS DE MACEDO, Melquizedeque de Sousa Reis, PEDRO GABRYEL RODRIGUES CASTRO, THIAGO LIMA CAVALCANTE
 
