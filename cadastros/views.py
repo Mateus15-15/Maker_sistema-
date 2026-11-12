@@ -12,7 +12,7 @@ def cliente(request):
     else:
         form = ClienteForm()
 
-    return render(request, 'cliente.html', {
+    return render(request, 'index.html', {
         'form': form,
         'sucesso': sucesso
     })
