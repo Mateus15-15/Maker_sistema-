@@ -32,6 +32,17 @@
 
             <button type="submit">Cadastrar Aluno</button>
         </form>
+            <h1>Cadastro de Cliente</h1>
+        <form action="{% url 'cliente' %}" method="POST">
+            {% csrf_token %}
+            <label for="cliente_nome">Nome:</label>
+            <input type="text" id="cliente_nome" name="nome" required>
+            <label for="cliente_email">E-mail:</label>
+            <input type="email" id="cliente_email" name="email" required>
+            <label for="cliente_telefone">Telefone:</label>
+            <input type="tel" id="cliente_telefone" name="telefone" required>
+            <button type="submit">Cadastrar Cliente</button>
+        </form>
     </main>
 </body>
 </html>
