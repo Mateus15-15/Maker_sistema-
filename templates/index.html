@@ -4,18 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'style.css' %}">>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
     <title>MAKER IFPI</title>
 </head>
 <body>
     <header class="cabecalho">
-        <a href="index.html">
-            <img src="IFPI Maker.jpeg" class="logo" alt="Logo IFPI Maker" height="100">
-        </a>
+       
+            <img src="{% static 'img/Az4OY07a_400x400.png' %}" class="logo" alt="Logo IFPI Maker" height="100">
 
         <nav class="menu">
-            <a class="link ativo" href="inicio.html">Inicio</a>
-            <a class="link" href="pag2.html">segunda página</a>
+            <a class="link ativo" href="{% url 'index' %}">Inicio</a>
+            <a class="link" href="{% url 'login' %}">Login</a>
         </nav>
     </header>
 
@@ -32,9 +31,6 @@
 
             <button type="submit">Cadastrar Aluno</button>
         </form>     
-        <a href="{% url 'cliente' %}">
-            <button type="button">Ir para Cadastro de Cliente</button>
-        </a>
     </main>
 </body>
 </html>

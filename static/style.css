@@ -10,7 +10,7 @@ body {
     background-color: #f2f2f2;
 }
 
-/* Cabeçalho */
+
 .cabecalho {
     background-color: #168447;
     display: flex;
@@ -33,7 +33,7 @@ body {
     text-decoration: none;
 }
 
-/* Formulário */
+
 
 .container {
     display: flex;
